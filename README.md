@@ -5,7 +5,7 @@ This is the frontend of the **VeggieHut**, a dynamic web application for buying 
 ---
 
 ## 🔗 Live Website
- Client-side :
+ Client-side :https://melodious-dieffenbachia-a83fce.netlify.app
  Server-side:https://server-side-nine-ruddy.vercel.app
 ---
 
