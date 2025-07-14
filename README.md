@@ -1,6 +1,6 @@
 # 🥕 VeggieHut
 
-This is the frontend of the **VeggieHut**, a dynamic web application for buying and selling fresh products, tracking daily prices, and showcasing vendor advertisements. The app is built using **React**, with **Firebase Authentication**, **Stripe Payments**, and **REST API** for backend communication
+This is the frontend of the **VeggieHut**, a dynamic web application for buying and selling fresh products, tracking daily prices, and showcasing vendor advertisements. The app is built using **React**, with **Firebase Authentication**, **Stripe Payments**, and **REST API** for backend communication.
 
 ---
 
