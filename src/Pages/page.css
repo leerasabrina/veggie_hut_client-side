@@ -1,0 +1,63 @@
+.active{
+    text-decoration: underline;
+    color: #007c00;
+}
+
+
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.fade-in-up {
+  animation: fadeInUp 2s ease-out forwards;
+}
+
+@keyframes slideIn {
+    from {
+      transform: translateX(-100px);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .animate-slideIn {
+    animation: slideIn 2s ease forwards;
+  }
+  @keyframes slideOut {
+    from {
+      transform: translateX(100px);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .animate-slideOut {
+    animation: slideOut 2s ease forwards;
+  }
+
+  @keyframes fadeInLeft {
+    from {
+      opacity: 0;
+      transform: translateX(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  .fade-in-left {
+    animation: fadeInLeft 7s ease-out forwards;
+  }
