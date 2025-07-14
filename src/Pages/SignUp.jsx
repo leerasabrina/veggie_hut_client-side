@@ -9,7 +9,7 @@ import { FaEye, FaEyeSlash } from 'react-icons/fa';
 
 const SignUp = () => {
   
-  const {resister,googleSignin}=useContext(AuthContext);
+  const {register,googleSignin}=useContext(AuthContext);
 
     const [show, setShow] = useState(false);
     const[success,setSuccess]=useState(false);
@@ -21,7 +21,7 @@ const SignUp = () => {
         const password = e.target.password.value;
         const name = e.target.name.value;
         const photo = e.target.photo.value;
-        resister(email,password,name,photo)
+        register(email,password,name,photo)
         .then(() => {
             
             toast.success("Registration successful");
