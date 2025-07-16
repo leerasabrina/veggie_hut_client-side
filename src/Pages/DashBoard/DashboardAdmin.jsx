@@ -12,7 +12,7 @@ const DashboardAdmin = () => {
     <Navbar></Navbar>
     <div className="flex min-h-screen">
       {/* Sidebar */}
-      <aside className='w-64 py-8 px-4 mt-4 bg-white shadow-2xl'>
+      <aside className='w-64 py-8 px-4 lg:pt-8 bg-white shadow-2xl'>
        
       
         <ul className="space-y-4">
